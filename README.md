@@ -1,2 +1,2 @@
 # ChargingView
-A charging view or progres view.
+A simple charging view.
