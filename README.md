@@ -1,19 +1,85 @@
 # ChargingView
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ChargingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/ChargingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
+<br>
 
   * [中文](#%E4%B8%AD%E6%96%87)
   * [English](#english)
   * [License](#license)
 
+<br>
+
+![guf](https://github.com/samlss/ChargingView/blob/master/screenshot/screenshot1.gif)
+
 
 ## 中文
-一个简单的充电view
+一个简单的充电view<br>
+
+### 使用<br>
+在根目录的build.gradle添加这一句代码：
+```
+allprojects {
+    repositories {
+        //...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+在app目录下的build.gradle添加依赖使用：
+```
+dependencies {
+    implementation 'com.github.samlss:ChargingView:1.0'
+}
+```
+
+布局中使用：
+```
+<com.iigo.library.ChargingView
+            android:id="@+id/cv2"
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            app:progress="50"
+            app:progressTextColor="@android:color/black"
+            app:chargingColor="@android:color/holo_red_light"
+            app:bg_color="#eeeeee"
+            app:progressTextSize="20dp" />
+```
+
+<br>
+
+代码中使用：
+```
+  chargingView.setProgress(95);
+  chargingView.setBgColor(Color.parseColor("#aaaaaa"));
+  chargingView.setChargingColor(Color.YELLOW);
+  chargingView.setTextColor(Color.RED);
+  chargingView.setTextSize(25);
+```
+
+<br>
 
 ## English
 A simple charging view.
 
+### Use<br>
+Add it in your root build.gradle at the end of repositories：
+```
+allprojects {
+    repositories {
+        //...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 
+Add it in your app build.gradle at the end of repositories:
+```
+dependencies {
+    implementation 'com.github.samlss:ChargingView:1.0'
+}
+```
 
 
 
