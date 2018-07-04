@@ -2,8 +2,10 @@
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ChargingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/ChargingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 
+  * [中文](#%E4%B8%AD%E6%96%87)
+  * [English](#english)
+  * [License](#license)
 
-[TOC]
 
 ## 中文
 一个简单的充电view
