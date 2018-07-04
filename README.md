@@ -60,6 +60,18 @@ dependencies {
 
 <br>
 
+属性说明：
+
+| 属性        | 说明           |
+| ------------- |:-------------:|
+| bg_color      | 背景颜色 |
+| chargingColor | 充电中颜色 |
+| progress      | 当前进度0-100 |
+| progressTextSize      | 显示进度text大小|
+| progressTextColor      | 显示进度text颜色 |
+
+<br>
+
 ## English
 A simple charging view.
 
@@ -82,6 +94,42 @@ dependencies {
 ```
 
 
+in layout.xml：
+```
+<com.iigo.library.ChargingView
+            android:id="@+id/cv2"
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            app:progress="50"
+            app:progressTextColor="@android:color/black"
+            app:chargingColor="@android:color/holo_red_light"
+            app:bg_color="#eeeeee"
+            app:progressTextSize="20dp" />
+```
+
+<br>
+
+in java code：
+```
+  chargingView.setProgress(95);
+  chargingView.setBgColor(Color.parseColor("#aaaaaa"));
+  chargingView.setChargingColor(Color.YELLOW);
+  chargingView.setTextColor(Color.RED);
+  chargingView.setTextSize(25);
+```
+
+<br>
+
+Attributes description：
+
+| attr        | d           |
+| ------------- |:-------------:|
+| bg_color      | the background color |
+| chargingColor | the charging color |
+| progress      | current progress:0-100 |
+| progressTextSize      | the progress text size|
+| progressTextColor      | the progress text color |
 
 
 
