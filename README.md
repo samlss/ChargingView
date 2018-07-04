@@ -72,6 +72,8 @@ dependencies {
 
 <br>
 
+如果不能满足你的需要，你可以下载源码自行修改。
+
 ## English
 A simple charging view.
 
@@ -131,7 +133,7 @@ Attributes description：
 | progressTextSize      | the progress text size|
 | progressTextColor      | the progress text color |
 
-
+If you can not meet your needs, you can download the source code to modify it.
 
 
 ## License
