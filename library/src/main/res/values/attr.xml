@@ -6,7 +6,7 @@
         <attr name="bg_color" format="color"/>
         <!--充电中颜色-->
         <attr name="chargingColor" format="color"/>
-        <!--当前进度1-100-->
+        <!--当前进度0-100-->
         <attr name="progress" format="integer"/>
         <!--文字大小-->
         <attr name="progressTextSize" format="dimension"/>
