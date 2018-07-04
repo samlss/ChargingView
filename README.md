@@ -123,7 +123,7 @@ in java code：
 
 Attributes description：
 
-| attr        | d           |
+| attr        | description  |
 | ------------- |:-------------:|
 | bg_color      | the background color |
 | chargingColor | the charging color |
