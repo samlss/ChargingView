@@ -1,10 +1,19 @@
 # ChargingView
+[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/ChargingView) 
+
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/ChargingView/blob/master/LICENSE)
+
+
+[![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)     
+
+
+
+[TOC]
 
 ## 中文
-## English
-
 一个简单的充电view
 
+## English
 A simple charging view.
 
 
