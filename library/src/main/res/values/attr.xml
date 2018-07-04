@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ChargingView">
+        <!--背景颜色-->
+        <attr name="bg_color" format="color"/>
+        <!--充电中颜色-->
+        <attr name="chargingColor" format="color"/>
+        <!--当前进度1-100-->
+        <attr name="progress" format="integer"/>
+        <!--文字大小-->
+        <attr name="progressTextSize" format="dimension"/>
+        <!--文字颜色-->
+        <attr name="progressTextColor" format="color"/>
+    </declare-styleable>
+</resources>
