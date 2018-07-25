@@ -9,7 +9,9 @@
 
 <br>
 
-![guf](https://github.com/samlss/ChargingView/blob/master/screenshot/screenshot1.gif)
+![gif1](https://github.com/samlss/ChargingView/blob/master/screenshot/screenshot1.gif)
+
+![gif2](https://github.com/samlss/ChargingView/blob/master/screenshot/screenshot2.gif)
 
 
 ## 中文
