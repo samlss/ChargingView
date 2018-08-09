@@ -42,6 +42,8 @@ public class ChargingView extends View {
     private ValueAnimator waveAnimator; //用于执行波浪移动动画
     private float waveAnimatorRatio = 0; //该值为三个波形的顺序三个波形分别为(-2 * width -> width -> 2 * width) width为chargingRectF的宽
 
+    private Rect textBound = new Rect();
+
     public ChargingView(Context context) {
         super(context);
 
@@ -114,13 +116,6 @@ public class ChargingView extends View {
             }
         });
         waveAnimator.start();
-    }
-
-    /**
-     * 初始化相关属性
-     * */
-    private void initAttr(){
-
     }
 
     @Override
@@ -208,7 +203,7 @@ public class ChargingView extends View {
     private void drawProgress(Canvas canvas, float centerX, float centerY){
         //绘制百分比
         String text = currentProgress + "%";
-        Rect textBound = new Rect();
+
         textPaint.getTextBounds(text, 0, text.length(), textBound);
         canvas.drawText(text, centerX - textBound.width() / 2, centerY + textBound.height() / 2, textPaint);
     }
